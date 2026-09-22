@@ -219,9 +219,9 @@ java -cp out smartstore.ai.Main
 
 ## 👥 Team
 
-Section: 69_I2
-Institution: Daffodil International University 
-Course:* Object-Oriented Programming Lab
+Section: 69_I2  | |
+Institution: Daffodil International University  | |
+Course: Object-Oriented Programming Lab
 
 | Member | Student ID | Name | GitHub | Focus |
 |---|---|---|---|---|
