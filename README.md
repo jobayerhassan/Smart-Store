@@ -1,13 +1,3 @@
- Smart-Store
-OOP lab project: a smart super-shop application built with Java
-
-    <rect x="66" y="298" width="112" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
-    <text x="122" y="323" class="c" text-anchor="middle">Java 17+</text>
-    <rect x="192" y="298" width="96" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
-    <text x="240" y="323" class="c" text-anchor="middle">Swing</text>
-    <rect x="302" y="298" width="168" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
-    <text x="386" y="323" class="c" text-anchor="middle">Rule-based AI</text>
-  
 <div align="center">
 
 <img src="assets/banner.svg" alt="Smart Store banner" width="100%"/>
@@ -223,7 +213,7 @@ java -cp out smartstore.ai.Main
 
 ## 👥 Team
 
-**Section:** ___ | **Institution:** Daffodil International University | **Course:** Object-Oriented Programming Lab
+*Section:* _ | *Institution:* Daffodil International University | *Course:* Object-Oriented Programming Lab
 
 | Member | Student ID | Name | GitHub | Focus |
 |---|---|---|---|---|
@@ -270,6 +260,4 @@ This project is created for academic purposes at Daffodil International Universi
 
 Made with ☕ by the Smart Store team
 
-
-
-
+</div>
