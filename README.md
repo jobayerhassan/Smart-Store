@@ -2,55 +2,14 @@
 OOP lab project: a smart super-shop application built with Java
 
 
-<polygon points="1098.7,219.0 1065.0,238.5 1065.0,216.5 1098.7,197.0" fill="#38bdf8" stroke="none" stroke-width="0" opacity="0.85"/>
-<polygon points="1060.6,241.0 1031.2,258.0 1031.2,236.0 1060.6,219.0" fill="#7dd3fc" stroke="none" stroke-width="0" opacity="0.7"/>
-<polygon points="847.6,150.0 1000.0,238.0 1000.0,222.0 847.6,134.0" fill="#34d399" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1152.4,150.0 1000.0,238.0 1000.0,222.0 1152.4,134.0" fill="#059669" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1000.0,46.0 1152.4,134.0 1000.0,222.0 847.6,134.0" fill="#a7f3d0" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="811.9,272.0 850.0,294.0 850.0,250.0 811.9,228.0" fill="#f59e0b" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="888.1,272.0 850.0,294.0 850.0,250.0 888.1,228.0" fill="#b45309" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="850.0,206.0 888.1,228.0 850.0,250.0 811.9,228.0" fill="#fcd34d" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="824.0,228.0 850.0,243.0 850.0,213.0 824.0,198.0" fill="#3b82f6" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="876.0,228.0 850.0,243.0 850.0,213.0 876.0,198.0" fill="#1d4ed8" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="850.0,183.0 876.0,198.0 850.0,213.0 824.0,198.0" fill="#93c5fd" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1098.8,280.0 1130.0,298.0 1130.0,262.0 1098.8,244.0" fill="#14b8a6" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1161.2,280.0 1130.0,298.0 1130.0,262.0 1161.2,244.0" fill="#0f766e" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1130.0,226.0 1161.2,244.0 1130.0,262.0 1098.8,244.0" fill="#5eead4" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<ellipse cx="770" cy="205" rx="14" ry="5" fill="#000" opacity="0.25" filter="url(#blur)"/>
-<polygon points="754.4,109.0 770.0,118.0 770.0,100.0 754.4,91.0" fill="#fbbf24" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="785.6,109.0 770.0,118.0 770.0,100.0 785.6,91.0" fill="#d97706" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="770.0,82.0 785.6,91.0 770.0,100.0 754.4,91.0" fill="#fde68a" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<ellipse cx="1180" cy="215" rx="12" ry="4" fill="#000" opacity="0.22" filter="url(#blur)"/>
-<polygon points="1167.0,93.5 1180.0,101.0 1180.0,86.0 1167.0,78.5" fill="#60a5fa" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1193.0,93.5 1180.0,101.0 1180.0,86.0 1193.0,78.5" fill="#2563eb" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1180.0,71.0 1193.0,78.5 1180.0,86.0 1167.0,78.5" fill="#bfdbfe" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-  <text x="76.6" y="182.6" class="t" fill="rgb(6,60,45)">Smart Store</text>
-<text x="75.7" y="181.7" class="t" fill="rgb(9,63,47)">Smart Store</text>
-<text x="74.8" y="180.8" class="t" fill="rgb(12,66,49)">Smart Store</text>
-<text x="73.9" y="179.9" class="t" fill="rgb(15,69,51)">Smart Store</text>
-<text x="73.0" y="179.0" class="t" fill="rgb(18,72,53)">Smart Store</text>
-<text x="72.1" y="178.1" class="t" fill="rgb(21,75,55)">Smart Store</text>
-<text x="71.2" y="177.2" class="t" fill="rgb(24,78,57)">Smart Store</text>
-<text x="70.3" y="176.3" class="t" fill="rgb(27,81,59)">Smart Store</text>
-<text x="69.4" y="175.4" class="t" fill="rgb(30,84,61)">Smart Store</text>
-<text x="68.5" y="174.5" class="t" fill="rgb(33,87,63)">Smart Store</text>
-<text x="67.6" y="173.6" class="t" fill="rgb(36,90,65)">Smart Store</text>
-<text x="66.7" y="172.7" class="t" fill="rgb(39,93,67)">Smart Store</text>
-<text x="65.8" y="171.8" class="t" fill="rgb(42,96,69)">Smart Store</text>
-<text x="64.9" y="170.9" class="t" fill="rgb(45,99,71)">Smart Store</text>
-  <text x="64" y="170" class="t" fill="#ecfdf5">Smart Store</text>
-  <text x="66" y="232" class="s">Recipe-based shopping assistant</text>
-  <text x="66" y="266" class="s">and family monthly budget planner</text>
-  <g>
+
     <rect x="66" y="298" width="112" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
     <text x="122" y="323" class="c" text-anchor="middle">Java 17+</text>
     <rect x="192" y="298" width="96" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
     <text x="240" y="323" class="c" text-anchor="middle">Swing</text>
     <rect x="302" y="298" width="168" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
     <text x="386" y="323" class="c" text-anchor="middle">Rule-based AI</text>
-  </g>
-  <text x="66" y="372" class="m">OOP Lab Project  |  Daffodil International University</text>
-</svg>
+  
 <div align="center">
 
 <img src="assets/banner.svg" alt="Smart Store banner" width="100%"/>
