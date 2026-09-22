@@ -45,11 +45,17 @@ This project is developed as a course project (Object-Oriented Programming Lab) 
 
 ## 🎯 Objectives
 
-> ✏️ **TODO:** Paste the objective bullet points you submitted in the project form here, so the README and your submission stay consistent.
+To build a Java super-shop application using core object-oriented programming principles for  clean and modular architecture.
 
--
--
--
+To implement a rule-based meal planner that automatically bundles required recipe ingredients into the shopping cart.
+
+To create an automated family budget planner that generates optimized monthly grocery lists based on user constraints.
+
+To provide intelligent product substitution suggestions whenever a requested inventory item is out of stock.
+
+To apply dynamic discounts on near-expiry perishable goods to reduce store inventory wastage and improve sales.
+
+To manage real-time temporary cart stock locking during checkout to prevent inventory double-booking conflicts.
 
 ---
 
