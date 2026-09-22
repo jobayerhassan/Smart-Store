@@ -1,8 +1,6 @@
  Smart-Store
 OOP lab project: a smart super-shop application built with Java
 
-
-
     <rect x="66" y="298" width="112" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
     <text x="122" y="323" class="c" text-anchor="middle">Java 17+</text>
     <rect x="192" y="298" width="96" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
@@ -230,10 +228,10 @@ java -cp out smartstore.ai.Main
 | Member | Student ID | Name | GitHub | Focus |
 |---|---|---|---|---|
 | Member 1 | 252-15-398 | Jobayer Hossen | [@jobayerhassan](https://github.com/jobayerhassan) | Recipe assistant and chat |
-| Member 2 | 252-15-___ | _name_ | [@ishtiakinan8-creator](https://github.com/ishtiakinan8-creator) | Budget planner |
-| Member 3 | 252-15-___ | _name_ | [@tafhim696](https://github.com/tafhim696) | Expiry pricing and substitution |
-| Member 4 | 252-15-___ | _name_ | [@username](https://github.com/username) | Eco container return |
-| Member 5 | 252-15-___ | _name_ | [@username](https://github.com/username) | Cart stock lock |
+| Member 2 | 252-15-704 | Ishtiak Inan | [@Inan704](https://github.com/Inan704) | Budget planner |
+| Member 3 | 252-15-338| Tafhim Hossain | [@tafhim696](https://github.com/tafhim696) | Expiry pricing and substitution |
+| Member 4 | 252-15-706 | Nowshad  | [@Nowshaaaad](https://github.com/Nowshaaaad) | Eco container return |
+| Member 5 | 252-15-557 | afifa maksura kabir| [@afifamaksurakabir](https://github.com/afifamaksurakabir) | Cart stock lock |
 
 ---
 
@@ -272,4 +270,6 @@ This project is created for academic purposes at Daffodil International Universi
 
 Made with ☕ by the Smart Store team
 
-</div>
+
+
+
