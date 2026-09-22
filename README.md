@@ -1,61 +1,7 @@
-# Smart-Store
+ Smart-Store
 OOP lab project: a smart super-shop application built with Java
 
-  <title>Smart Store</title>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#06140f"/>
-      <stop offset="0.55" stop-color="#0b2e22"/>
-      <stop offset="1" stop-color="#0a2233"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="1000" cy="210" r="260" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#34d399" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="120" cy="60" r="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
-    <style>
-      .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; font-size: 88px; }
-      .s { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 26px; fill: #a7f3d0; }
-      .c { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #ecfdf5; }
-      .m { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 16px; fill: #6ee7b7; opacity: 0.85; }
-    </style>
-  </defs>
-  <rect width="1280" height="400" rx="18" fill="url(#bg)"/>
-  <rect width="1280" height="400" rx="18" fill="url(#glow2)"/>
-  <rect width="1280" height="400" rx="18" fill="url(#glow)"/>
-  <polygon points="1000.0,130.0 1225.2,260.0 1000.0,390.0 774.8,260.0" fill="rgba(110,231,183,0.06)" stroke="rgba(110,231,183,0.25)" stroke-width="1.2"/>
-<line x1="1022.5" y1="143.0" x2="797.4" y2="273.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="977.5" y1="143.0" x2="1202.6" y2="273.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1045.0" y1="156.0" x2="819.9" y2="286.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="955.0" y1="156.0" x2="1180.1" y2="286.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1067.5" y1="169.0" x2="842.4" y2="299.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="932.5" y1="169.0" x2="1157.6" y2="299.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1090.1" y1="182.0" x2="864.9" y2="312.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="909.9" y1="182.0" x2="1135.1" y2="312.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1112.6" y1="195.0" x2="887.4" y2="325.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="887.4" y1="195.0" x2="1112.6" y2="325.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1135.1" y1="208.0" x2="909.9" y2="338.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="864.9" y1="208.0" x2="1090.1" y2="338.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1157.6" y1="221.0" x2="932.5" y2="351.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="842.4" y1="221.0" x2="1067.5" y2="351.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1180.1" y1="234.0" x2="955.0" y2="364.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="819.9" y1="234.0" x2="1045.0" y2="364.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1202.6" y1="247.0" x2="977.5" y2="377.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="797.4" y1="247.0" x2="1022.5" y2="377.0" stroke="rgba(110,231,183,0.12)"/>
-<ellipse cx="1000" cy="335" rx="150" ry="40" fill="#000" opacity="0.45" filter="url(#blur)"/>
-<ellipse cx="850" cy="292" rx="40" ry="12" fill="#000" opacity="0.35" filter="url(#blur)"/>
-<ellipse cx="1130" cy="292" rx="34" ry="10" fill="#000" opacity="0.35" filter="url(#blur)"/>
-<polygon points="870.1,245.0 1000.0,320.0 1000.0,225.0 870.1,150.0" fill="#10b981" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1129.9,245.0 1000.0,320.0 1000.0,225.0 1129.9,150.0" fill="#047857" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1000.0,75.0 1129.9,150.0 1000.0,225.0 870.1,150.0" fill="#6ee7b7" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="915.1,271.0 955.0,294.0 955.0,234.0 915.1,211.0" fill="#064e3b" stroke="#a7f3d0" stroke-width="1.5" opacity="1"/>
-<polygon points="920.3,274.0 949.8,291.0 949.8,237.0 920.3,220.0" fill="#022c22" stroke="none" stroke-width="0" opacity="1"/>
-<polygon points="896.1,192.0 974.0,237.0 974.0,219.0 896.1,174.0" fill="#fbbf24" stroke="#b45309" stroke-width="1" opacity="1"/>
-<polygon points="1103.9,222.0 1026.0,267.0 1026.0,233.0 1103.9,188.0" fill="#022c22" stroke="#a7f3d0" stroke-width="1.5" opacity="1"/>
+
 <polygon points="1098.7,219.0 1065.0,238.5 1065.0,216.5 1098.7,197.0" fill="#38bdf8" stroke="none" stroke-width="0" opacity="0.85"/>
 <polygon points="1060.6,241.0 1031.2,258.0 1031.2,236.0 1060.6,219.0" fill="#7dd3fc" stroke="none" stroke-width="0" opacity="0.7"/>
 <polygon points="847.6,150.0 1000.0,238.0 1000.0,222.0 847.6,134.0" fill="#34d399" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
