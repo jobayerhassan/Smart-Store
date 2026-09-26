@@ -1,160 +1,477 @@
-<div align="center">
+<p align="center">
+  <img src="./banner.svg" width="850">
+</p>
 
-   <img src="banner.svg" alt="Smart Store banner" width="100%"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17%2B-orange?style=flat-square&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/UI-Swing-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Database-SQLite%20%2B%20JDBC-336791?style=flat-square&logo=sqlite&logoColor=white">
+  <img src="https://img.shields.io/badge/Paradigm-OOP-6f42c1?style=flat-square">
+  <img src="https://img.shields.io/badge/AI-Rule--based-b088f2?style=flat-square">
+  <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square">
+</p>
 
-<br/>
-
-![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![UI](https://img.shields.io/badge/UI-Swing-2563EB?style=for-the-badge)
-![OOP](https://img.shields.io/badge/Paradigm-OOP-10B981?style=for-the-badge)
-![AI](https://img.shields.io/badge/AI-Rule--Based-8B5CF6?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Development-F59E0B?style=for-the-badge)
-
-**Type a dish or a family size. Get a ready shopping list with prices.**
-
-</div>
-
----
-
-## 📑 Table of Contents
-
-- [About the Project](#-about-the-project)
-- [Objectives](#-objectives)
-- [Key Features](#-key-features)
-- [How the Mini AI Works](#-how-the-mini-ai-works)
-- [Sample Chat](#-sample-chat)
-- [OOP Concepts Used](#-oop-concepts-used)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Team](#-team)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
+<p align="center"><b>Type a dish or a family size. Get a ready shopping list with prices.</b></p>
 
 ---
 
-## 📖 About the Project
+## Table of Contents
 
-**Smart Store** is a Java super-shop application that helps a customer shop faster and smarter. Instead of searching for items one by one, the customer writes a message like *"chicken roast 4 jon"* or *"poribar 5 jon, budget 15000"* and the app builds the shopping list, calculates the cost, and suggests substitutes when an item is out of stock.
-
-The "AI" in this project is a **rule-based expert system**. It uses stored recipes, stock data, and clear rules to make decisions. It is not machine learning and it needs no internet connection.
-
-This project is developed as a course project (Object-Oriented Programming Lab) at **Daffodil International University (DIU)**.
+- [About the Project](#about-the-project)
+- [Problem Statement](#problem-statement)
+- [Objectives](#objectives)
+- [Functional Requirements](#functional-requirements)
+- [Non-Functional Requirements](#non-functional-requirements)
+- [System Modules](#system-modules)
+- [Key Features](#key-features)
+- [Feature Implementation Details](#feature-implementation-details)
+- [How the Smart Assistant Works](#how-the-smart-assistant-works)
+- [Sample Chat](#sample-chat)
+- [System Workflow](#system-workflow)
+- [System Architecture](#system-architecture)
+- [OOP Implementation](#oop-implementation)
+- [Design Patterns](#design-patterns)
+- [Database Design](#database-design)
+- [Exception Handling](#exception-handling)
+- [Testing Strategy](#testing-strategy)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Development Roadmap](#development-roadmap)
+- [Team](#team)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
 
 ---
 
-## 🎯 Objectives
+## About the Project
 
-To build a Java super-shop application using core object-oriented programming principles for  clean and modular architecture.
+**Smart Store** is a Java-based intelligent grocery retail management system, developed as a university Object-Oriented Programming lab project. It is inspired by modern superstore applications but is an independent academic implementation.
 
-To implement a rule-based meal planner that automatically bundles required recipe ingredients into the shopping cart.
+Instead of searching for items one by one, a customer can simply describe what they want — a dish, a family size, or a monthly budget — and Smart Store works out the ingredients, quantities, and cost automatically.
 
-To create an automated family budget planner that generates optimized monthly grocery lists based on user constraints.
+Smart Store combines traditional shopping operations with intelligent features:
 
-To provide intelligent product substitution suggestions whenever a requested inventory item is out of stock.
+- Smart shopping assistant
+- Recipe-based grocery planning
+- Family budget management
+- Smart pantry
+- Inventory intelligence
+- Product substitution
+- Expiry-based pricing
+- Stock reservation
+- Eco-friendly shopping
 
-To apply dynamic discounts on near-expiry perishable goods to reduce store inventory wastage and improve sales.
-
-To manage real-time temporary cart stock locking during checkout to prevent inventory double-booking conflicts.
+The goal is to demonstrate practical Java OOP concepts through a realistic retail system.
 
 ---
 
-## ✨ Key Features
+## Problem Statement
+
+Traditional grocery systems mainly provide product browsing and purchasing. Common problems:
+
+- Customers cannot efficiently plan groceries.
+- Budget management is difficult.
+- Recipe ingredients are forgotten.
+- Products become unavailable.
+- Expired products create waste.
+- Inventory management becomes complex.
+
+Smart Store provides intelligent solutions for both customers and store administrators.
+
+---
+
+## Objectives
+
+| Objective | Solution |
+|---|---|
+| Smart grocery planning | Recipe Planner |
+| Budget control | Family Budget Planner |
+| Reduce waste | Expiry Pricing |
+| Better recommendation | Substitute Engine |
+| Inventory control | Batch Inventory |
+| Prevent overselling | Reservation System |
+| Sustainability | Eco Container |
+
+---
+
+## Functional Requirements
+
+### FR-01 — User Authentication
+
+The system shall allow users to register and log in.
+
+**Classes:** `User`, `Customer`, `Admin`, `AuthService`
+
+### FR-02 — Product Management
+
+The Admin can:
+- Add products
+- Update products
+- Remove products
+- Manage categories
+
+**Classes:** `Product`, `Category`, `ProductService`
+
+### FR-03 — Smart Assistant
+
+The system shall provide shopping assistance.
+
+**Input:**
+```
+Chicken roast for 5 people
+```
+
+**Output:**
+```
+Ingredient list
+Required quantity
+Estimated cost
+```
+
+**Classes:** `ChatAssistant`, `ChatIntent`, `RecipeIntent`
+
+---
+
+## Non-Functional Requirements
+
+| Requirement | Description |
+|---|---|
+| **Performance** | The system should respond quickly during normal operations. |
+| **Maintainability** | The code should follow a modular architecture. |
+| **Security** | User data should be protected. |
+| **Reliability** | Database operations should maintain consistency. |
+
+---
+
+## System Modules
+
+| Module | Responsible for |
+|---|---|
+| **1. Authentication** | User registration, login, role management |
+| **2. Smart Assistant** | Recipe processing, user query handling, recommendation |
+| **3. Planning System** | Budget planning, pantry management |
+| **4. Inventory System** | Products, stock, expiry, pricing |
+| **5. Transaction System** | Cart, order, payment |
+
+---
+
+## Key Features
 
 | # | Feature | What it does | OOP idea | Status |
 |---|---|---|---|---|
-| 1 | 🍗 **Recipe-to-Grocery Bundler** | Dish name + number of people gives the full ingredient list, quantities and cost | Polymorphism, Abstraction | ✅ Core ready |
-| 2 | 👨‍👩‍👧 **Family Monthly Budget Planner** | Family size + budget gives a monthly grocery list that fits the budget (greedy by priority) | Encapsulation | ✅ Core ready |
-| 3 | 🔁 **Smart Substitution** | If an item is out of stock, suggests a similar item (same category, close price, in stock) | Interface, Open/Closed | ✅ Core ready |
-| 4 | ⏳ **Dynamic Expiry Pricing** | Discounts increase as the expiry date gets closer (tier-based) | Interface, Polymorphism | 🚧 Planned |
-| 5 | ♻️ **Eco Container Return & Cashback** | Container goes through states (issued, returned, refunded) and cashback goes to a wallet | State Pattern | 🚧 Planned |
-| 6 | 🔒 **Cart Stock Lock (3 min)** | Reserves stock for a short time so two users cannot buy the last item | Multithreading | 🚧 Planned |
+| 1 | Recipe-to-Grocery Bundler | Dish name + number of people → full ingredient list, quantities and cost | Polymorphism, Abstraction | ✅ Core ready |
+| 2 | Family Monthly Budget Planner | Family size + budget → a monthly grocery list that fits the budget (greedy by priority) | Encapsulation | ✅ Core ready |
+| 3 | Smart Substitution | If an item is out of stock, suggests a similar one (same category, close price, in stock) | Interface, Open/Closed | ✅ Core ready |
+| 4 | Dynamic Expiry Pricing | Discounts increase as the expiry date gets closer (tier-based) | Interface, Polymorphism | 🚧 Planned |
+| 5 | Eco Container Return & Cashback | Container moves through states (issued, returned, refunded); cashback goes to a wallet | State Pattern | 🚧 Planned |
+| 6 | Cart Stock Lock (3 min) | Reserves stock briefly so two users can't buy the last item at once | Multithreading | 🚧 Planned |
 
-> Features are planned and may change as development continues.
+> Features marked "Planned" may change as development continues.
 
 ---
 
-## 🧠 How the Mini AI Works
+## Feature Implementation Details
+
+### Smart Recipe Planner
+
+**Purpose:** Convert recipes into shopping requirements.
+
+**Workflow:**
+```
+Recipe Input
+    │
+    ▼
+Ingredient Calculation
+    │
+    ▼
+Inventory Check
+    │
+    ▼
+Missing Items
+    │
+    ▼
+Cart
+```
+
+**Classes:** `Recipe`, `RecipeIngredient`, `RecipeService`, `ShoppingList`
+
+**Database tables:** `recipes`, `recipe_items`, `products`
+
+---
+
+### Smart Pantry
+
+**Purpose:** Track the customer's available household items.
+
+**Example:**
+```
+Required Rice: 2kg
+
+Available:
+Rice 5kg
+
+Purchase:
+0kg
+```
+
+**Classes:** `Pantry`, `PantryItem`, `PantryService`
+
+---
+
+### Family Budget Planner
+
+**Purpose:** Create optimized grocery plans.
+
+**Inputs:** Family size, Budget, Priority items
+
+**Classes:** `FamilyProfile`, `BudgetPlanner`, `BudgetPlan`, `Optimizer`
+
+---
+
+### Inventory Management
+
+**Features:** Product stock, Batch tracking, Expiry tracking
+
+**Classes:** `Product`, `InventoryBatch`, `InventoryService`
+
+---
+
+### FEFO Algorithm (First Expired, First Out)
+
+**Logic:**
+```
+Sort inventory batches by expiry date
+Select earliest expiry batch
+Reduce quantity
+Continue until requirement completed
+```
+
+---
+
+### Smart Substitution Engine
+
+**Purpose:** Recommend alternatives.
+
+**Factors:** Category, Brand, Price, Size, Availability
+
+**Classes:** `SubstitutionStrategy`, `SubstitutionService`
+
+---
+
+### Dynamic Pricing
+
+**Purpose:** Generate expiry-based discounts.
+
+**Example:**
+```
+Normal:      100%
+Near Expiry: Discount
+Expired:     Unavailable
+```
+
+**Classes:** `PricingRule`, `ExpiryPricingRule`, `PricingService`
+
+---
+
+### Cart and Order
+
+**Workflow:**
+```
+Cart
+  │
+  ▼
+Reservation
+  │
+  ▼
+Payment
+  │
+  ▼
+Order
+  │
+  ▼
+Receipt
+```
+
+**Classes:** `Cart`, `Order`, `Payment`, `Receipt`
+
+---
+
+### Stock Reservation
+
+**Purpose:** Prevent selling unavailable stock.
+
+**Classes:** `Reservation`, `ReservationService`
+
+---
+
+### Eco Container System
+
+Uses state management.
+
+**States:** `Available → Issued → Returned → Refunded`
+
+---
+
+### Smart Rescue Basket
+
+**Purpose:** Creates discounted bundles from near-expiry products.
+
+**Example:**
+```
+Milk + Bread + Egg  =  Breakfast Rescue Pack
+```
+
+---
+
+## How the Smart Assistant Works
+
+The Smart Assistant reads a short, free-text request and turns it into a ready-to-buy shopping list.
+
+```
+Recipe / Family-size Input
+        │
+        ▼
+Ingredient Calculation
+        │
+        ▼
+Inventory Check
+        │
+        ▼
+Missing Items Identified
+        │
+        ▼
+Shopping List / Cart
+```
+
+**Classes involved:** `ChatAssistant`, `ChatIntent`, `RecipeIntent`, `FamilyPlanIntent`, `HelpIntent`, `RecipeService`, `ShoppingList`
+
+---
+
+## Sample Chat
+
+```
+You:      Chicken roast for 5 people
+
+Assistant:
+  Ingredients required:
+    - Chicken            1.5 kg
+    - Onion               0.4 kg
+    - Garlic & Ginger      0.1 kg
+    - Cooking Oil          0.3 L
+    - Spices (mixed)       0.15 kg
+
+  Estimated cost:  ৳ 850
+
+  ✅ All items are currently in stock.
+  Add to cart? (yes/no)
+```
+
+---
+
+## System Workflow
+
+**Customer workflow:**
 
 ```mermaid
-flowchart LR
-    U([User message]) --> C[ChatAssistant]
-    C --> R[RecipeIntent]
-    C --> F[FamilyPlanIntent]
-    C --> H[HelpIntent]
-    R --> RA[RecipeAssistant]
-    F --> BP[BudgetPlanner]
-    RA --> S[SubstitutionEngine]
-    BP --> S
-    RA --> INV[(Inventory)]
-    BP --> INV
-    S --> INV
-    RA --> OUT([Shopping list + total cost])
-    BP --> OUT
+flowchart TD
+    A[Register] --> B[Login]
+    B --> C[Dashboard]
+    C --> D[Smart Assistant / Shopping]
+    D --> E[Cart]
+    E --> F[Reservation]
+    F --> G[Payment]
+    G --> H[Order]
+    H --> I[Receipt]
 ```
 
-1. The **ChatAssistant** sends the message to the first **ChatIntent** that matches it.
-2. **RecipeAssistant** multiplies per-person quantities by the number of people and checks stock.
-3. **BudgetPlanner** sorts items by priority and adds them one by one while the budget lasts (greedy method).
-4. **SubstitutionEngine** finds an alternative when stock is low or the budget is tight.
+**Admin workflow:**
 
-To add a new chat feature, write one new class that implements `ChatIntent`. Existing code does not change (Open/Closed Principle).
+```mermaid
+flowchart TD
+    A[Admin Login] --> B[Dashboard]
+    B --> C[Product Management]
+    C --> D[Inventory Control]
+    D --> E[Reports]
+```
 
 ---
 
-## 💬 Sample Chat
+## System Architecture
 
-```text
-YOU: chicken roast 4 jon
-BOT: chicken roast (4 jon):
-- chicken: 1 kg = 210 Tk
-- onion: 200 g = 12 Tk
-- garlic: 40 g = 9 Tk
-- yogurt: 120 g = 22 Tk
-- soybean oil: 60 ml = 11 Tk
-- salt: 12 g = <1 Tk
-Mot khoroch: 264 Tk
+Smart Store follows a classic layered architecture, which keeps the UI, business rules, and data access cleanly separated.
+
+```mermaid
+flowchart TD
+    A["Presentation Layer<br/>Swing UI"] --> B["Controller Layer<br/>Handles user actions"]
+    B --> C["Service Layer<br/>Business logic"]
+    C --> D["Repository Layer<br/>Data access (DAO)"]
+    D --> E[("SQLite Database")]
 ```
 
-```text
-YOU: dawat e chicken roast 60 jon
-BOT: chicken roast (60 jon):
-- sonali chicken: 15 kg = 3600 Tk  (chicken stock e kom, tai sonali chicken)
-...
-```
-
-> Prices and quantities are sample data and can be changed in the data files.
-
----
-
-## 🧩 OOP Concepts Used
-
-| Concept | Where |
+| Layer | Responsibility |
 |---|---|
-| **Encapsulation** | `private` fields with getters/setters in `Product`, `Inventory` |
-| **Inheritance** | `User` to `Admin` / `Customer`, `Product` to perishable / non-perishable |
-| **Polymorphism** | `ChatIntent.respond()`, `PricingRule.apply()`, `Payment.pay()` |
-| **Abstraction** | abstract classes and interfaces (`ChatIntent`, `PricingRule`, `ContainerState`) |
-| **Design Patterns** | State Pattern (eco container), Strategy-style rules (pricing, substitution) |
+| Presentation | Swing screens, user input/output |
+| Controller | Receives UI events, delegates to services |
+| Service | Core business rules (pricing, recipes, budget, substitution) |
+| Repository | CRUD operations via JDBC, isolates SQL from business logic |
+| Database | Persistent storage (SQLite) |
+
+---
+
+## OOP Implementation
+
+| Pillar | Used in | Notes |
+|---|---|---|
+| **Encapsulation** | `Product`, `User`, `Order` | Private fields with getters and setters |
+| **Inheritance** | `User` → `Customer`, `Admin` | Shared authentication fields, specialized behavior |
+| **Polymorphism** | `Payment`, `PricingRule`, `SubstitutionStrategy` | Same call, different implementation per strategy |
+| **Abstraction** | `ChatIntent`, `PricingRule`, `ContainerState`, `Repository` | Abstract classes & interfaces define the contract |
+
+**User hierarchy:**
 
 ```mermaid
 classDiagram
+    class User {
+        <<abstract>>
+        -int userId
+        -String name
+        -String email
+    }
+    class Customer
+    class Admin
+    User <|-- Customer
+    User <|-- Admin
+```
+
+**Chat Assistant & Eco Container — class relationships:**
+
+```mermaid
+classDiagram
+    class ChatAssistant {
+        +reply(String) String
+    }
     class ChatIntent {
         <<interface>>
         +matches(String) boolean
         +respond(String) String
     }
-    class ChatAssistant {
-        +reply(String) String
-    }
+    class RecipeIntent
+    class FamilyPlanIntent
+    class HelpIntent
+
     class ContainerState {
         <<interface>>
         +next(Container)
     }
-    ChatAssistant o-- ChatIntent
+    class IssuedState
+    class ReturnedState
+    class RefundedState
+
+    ChatAssistant o-- ChatIntent : uses
     ChatIntent <|.. RecipeIntent
     ChatIntent <|.. FamilyPlanIntent
     ChatIntent <|.. HelpIntent
+
     ContainerState <|.. IssuedState
     ContainerState <|.. ReturnedState
     ContainerState <|.. RefundedState
@@ -162,110 +479,151 @@ classDiagram
 
 ---
 
-## 🛠️ Tech Stack
+## Design Patterns
 
-| Layer | Technology |
+| Pattern | Used for |
+|---|---|
+| **Strategy** | Payment methods, pricing rules, substitution logic |
+| **State** | Eco container lifecycle (Issued → Returned → Refunded) |
+| **Repository** | Isolating database access from business logic |
+
+---
+
+## Database Design
+
+**Technology:** SQLite + JDBC
+
+| Table | Purpose |
+|---|---|
+| `users` | User data |
+| `products` | Product data |
+| `categories` | Categories |
+| `inventory_batches` | Stock and expiry |
+| `recipes` | Recipe data |
+| `pantry_items` | Customer pantry |
+| `carts` | Shopping cart |
+| `orders` | Orders |
+| `payments` | Payments |
+| `reservations` | Stock reservation |
+| `wallets` | Wallet data |
+
+---
+
+## Exception Handling
+
+Custom exceptions used across the system:
+
+- `UserNotFoundException`
+- `ProductNotFoundException`
+- `InsufficientStockException`
+- `PaymentFailedException`
+
+---
+
+## Testing Strategy
+
+Manually and unit-tested areas include:
+
+- Authentication
+- Recipe calculation
+- Budget optimization
+- Inventory
+- Pricing
+- Reservation
+- Payment
+- Order
+
+---
+
+## Tech Stack
+
+| Component | Technology |
 |---|---|
 | Language | Java 17+ |
-| UI | Java Swing |
-| Data storage | Text / CSV files |
-| Concurrency | `java.util.concurrent` (scheduler, locks) |
-| Diagrams | draw.io (UML), Mermaid |
-| Version Control | Git & GitHub |
+| UI | Swing |
+| Database | SQLite + JDBC |
+| Assistant logic | Rule-based intent matching |
+| Build | (add your build tool — Maven/Gradle) |
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-```text
-Smart-Store/
-├── assets/            # banner and images
-├── data/              # products, recipes, monthly items
-├── docs/              # UML diagrams, report, screenshots
-├── src/
-│   └── smartstore/
-│       ├── ai/        # recipe assistant, budget planner, chat
-│       ├── pricing/   # dynamic expiry pricing rules
-│       ├── eco/       # container return (State Pattern) and wallet
-│       ├── lock/      # cart stock lock (multithreading)
-│       └── ui/        # Swing screens
-└── README.md
+```
+Smart-Store
+└── src
+    ├── model
+    ├── service
+    ├── repository
+    ├── database
+    ├── assistant
+    ├── inventory
+    ├── planner
+    ├── cart
+    ├── order
+    ├── payment
+    ├── eco
+    └── ui
 ```
 
 ---
 
-## 🚀 Getting Started
+## Development Roadmap
 
-### Prerequisites
+**Phase 1**
+- [x] Models
+- [x] Database
+- [x] Authentication
 
-- Java JDK 17 or later
-- Git
+**Phase 2**
+- [x] Product
+- [x] Inventory
+- [x] Recipe
+- [x] Budget
 
-### Installation
+**Phase 3**
+- [ ] Pricing
+- [ ] Reservation
+- [ ] Eco System
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/jobayerhassan/Smart-Store.git
-
-# 2. Move into the project folder
-cd Smart-Store
-
-# 3. Compile and run the console demo of the mini AI
-javac -d out src/smartstore/ai/*.java
-java -cp out smartstore.ai.Main
-```
-
----
-
-## 👥 Team
-
-Section: 69_I2  | |
-Institution: Daffodil International University  | |
-Course: Object-Oriented Programming Lab
-
-| Member | Student ID | Name | GitHub | Focus |
-|---|---|---|---|---|
-| Member 1 | 252-15-398 | Jobayer Hossen | [@jobayerhassan](https://github.com/jobayerhassan) | Recipe assistant and chat |
-| Member 2 | 252-15-704 | Ishtiak Inan | [@Inan704](https://github.com/Inan704) | Budget planner |
-| Member 3 | 252-15-338| Tafhim Hossain | [@tafhim696](https://github.com/tafhim696) | Expiry pricing and substitution |
-| Member 4 | 252-15-706 | Nowshad  | [@Nowshaaaad](https://github.com/Nowshaaaad) | Eco container return |
-| Member 5 | 252-15-557 | afifa maksura kabir| [@afifamaksurakabir](https://github.com/afifamaksurakabir) | Cart stock lock |
+**Phase 4**
+- [ ] Testing
+- [ ] UI
+- [ ] Documentation
 
 ---
 
-## 🗺️ Roadmap
+## Team
 
-- [x] Project proposal and team formation
-- [x] GitHub repository setup
-- [x] Core mini AI (recipe assistant, budget planner, substitution)
-- [ ] Design data models and UML diagram
-- [ ] Dynamic expiry pricing
-- [ ] Eco container return with State Pattern
-- [ ] Cart stock lock with multithreading
-- [ ] Build Swing screens (login, shop, chat, cart, admin)
-- [ ] Testing and bug fixing
-- [ ] Report and final presentation
+| Member | Responsibility |
+|---|---|
+| Member 1 | Authentication + Smart Assistant |
+| Member 2 | Budget + Pantry |
+| Member 3 | Inventory + Pricing |
+| Member 4 | Cart + Order + Payment |
+| Member 5 | Eco System + Dashboard |
 
 ---
 
-## 🤝 Contributing
+## Future Improvements
 
-1. Pull the latest code: `git pull`
-2. Create a new branch for your work: `git checkout -b feature/your-feature`
-3. Commit with a clear message: `git commit -m "Add ExpiryRule class"`
-4. Push the branch: `git push origin feature/your-feature`
-5. Open a Pull Request and ask a teammate to review it
-
-Each member works in their own package so files do not clash. Shared files such as `Main.java` are edited by one person only.
+- Mobile application
+- AI chatbot
+- Online delivery
+- Supplier management
+- Analytics dashboard
 
 ---
 
-## 📄 License
+## Contributing
 
-This project is created for academic purposes at Daffodil International University.
+This is an academic lab project, but suggestions and pull requests are welcome:
 
-<div align="center">
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes
+4. Open a pull request
 
-Made with ☕ by the Smart Store team
+---
 
-</div>
+<p align="center">Built with Java ❤️ — OOP Lab Project, Daffodil International University</p>
