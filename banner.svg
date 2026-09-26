@@ -1,105 +1,164 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="Smart Store banner" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3MjgzODBhMy02YTdmLTQ5ZmQtODE1MC1mOWVkODdhMWY0NjcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaEpCRAtyozZ+yqlfaBWKj6UAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1ZTlmZDA4ZS1jZjIxLTQ2NDUtYTg4MS1jNjZhMWRhMDU0ZGVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoBJv8MKmj4SxaI4crGSiaqQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggfLigwSmjrY+1KE5x7nU1o03MXz+Ov4KCjKaVj72QTtWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGzZqZdK3Oaa2kfS8mzm6x0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBk1GltC1EGQ8rLC8iXAPxGB71qVMxhJu5dtPsueDKeU2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjDZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjcyODM4MGEzLTZhN2YtNDlmZC04MTUwLWY5ZWQ4N2ExZjQ2Ny9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjI5ODhkYjNkLTIwZTktNDcwZS05MzYzLTA4N2E5MDIxMTMzNnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCB8uKDBKaOtj7UoTnHudTWjTcxfP46/goKMppWPvZBO1aJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggjAY4C7OpQuMXy2tdf9CtbjQj4x/auaQhWjx/KA1BNjaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggWvXiKlYssS2kqLvqX7biuQdhAwfdpFHsjy1zsXGIUaZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQHNBH+DeL+s135DhV4p95UZn87mIfn+XP4fl75QmlcDms5XzBWXJXe9QTR2tqFveyfZkKLaKomvVmPNIraMOyVU=</c2pa:manifest></metadata>
-  <title>Smart Store</title>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#06140f"/>
-      <stop offset="0.55" stop-color="#0b2e22"/>
-      <stop offset="1" stop-color="#0a2233"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="1000" cy="210" r="260" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#34d399" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="120" cy="60" r="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
-    <style>
-      .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; font-size: 88px; }
-      .s { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 26px; fill: #a7f3d0; }
-      .c { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #ecfdf5; }
-      .m { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 16px; fill: #6ee7b7; opacity: 0.85; }
-    </style>
-  </defs>
-  <rect width="1280" height="400" rx="18" fill="url(#bg)"/>
-  <rect width="1280" height="400" rx="18" fill="url(#glow2)"/>
-  <rect width="1280" height="400" rx="18" fill="url(#glow)"/>
-  <polygon points="1000.0,130.0 1225.2,260.0 1000.0,390.0 774.8,260.0" fill="rgba(110,231,183,0.06)" stroke="rgba(110,231,183,0.25)" stroke-width="1.2"/>
-<line x1="1022.5" y1="143.0" x2="797.4" y2="273.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="977.5" y1="143.0" x2="1202.6" y2="273.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1045.0" y1="156.0" x2="819.9" y2="286.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="955.0" y1="156.0" x2="1180.1" y2="286.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1067.5" y1="169.0" x2="842.4" y2="299.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="932.5" y1="169.0" x2="1157.6" y2="299.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1090.1" y1="182.0" x2="864.9" y2="312.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="909.9" y1="182.0" x2="1135.1" y2="312.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1112.6" y1="195.0" x2="887.4" y2="325.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="887.4" y1="195.0" x2="1112.6" y2="325.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1135.1" y1="208.0" x2="909.9" y2="338.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="864.9" y1="208.0" x2="1090.1" y2="338.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1157.6" y1="221.0" x2="932.5" y2="351.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="842.4" y1="221.0" x2="1067.5" y2="351.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1180.1" y1="234.0" x2="955.0" y2="364.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="819.9" y1="234.0" x2="1045.0" y2="364.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="1202.6" y1="247.0" x2="977.5" y2="377.0" stroke="rgba(110,231,183,0.12)"/>
-<line x1="797.4" y1="247.0" x2="1022.5" y2="377.0" stroke="rgba(110,231,183,0.12)"/>
-<ellipse cx="1000" cy="335" rx="150" ry="40" fill="#000" opacity="0.45" filter="url(#blur)"/>
-<ellipse cx="850" cy="292" rx="40" ry="12" fill="#000" opacity="0.35" filter="url(#blur)"/>
-<ellipse cx="1130" cy="292" rx="34" ry="10" fill="#000" opacity="0.35" filter="url(#blur)"/>
-<polygon points="870.1,245.0 1000.0,320.0 1000.0,225.0 870.1,150.0" fill="#10b981" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1129.9,245.0 1000.0,320.0 1000.0,225.0 1129.9,150.0" fill="#047857" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1000.0,75.0 1129.9,150.0 1000.0,225.0 870.1,150.0" fill="#6ee7b7" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="915.1,271.0 955.0,294.0 955.0,234.0 915.1,211.0" fill="#064e3b" stroke="#a7f3d0" stroke-width="1.5" opacity="1"/>
-<polygon points="920.3,274.0 949.8,291.0 949.8,237.0 920.3,220.0" fill="#022c22" stroke="none" stroke-width="0" opacity="1"/>
-<polygon points="896.1,192.0 974.0,237.0 974.0,219.0 896.1,174.0" fill="#fbbf24" stroke="#b45309" stroke-width="1" opacity="1"/>
-<polygon points="1103.9,222.0 1026.0,267.0 1026.0,233.0 1103.9,188.0" fill="#022c22" stroke="#a7f3d0" stroke-width="1.5" opacity="1"/>
-<polygon points="1098.7,219.0 1065.0,238.5 1065.0,216.5 1098.7,197.0" fill="#38bdf8" stroke="none" stroke-width="0" opacity="0.85"/>
-<polygon points="1060.6,241.0 1031.2,258.0 1031.2,236.0 1060.6,219.0" fill="#7dd3fc" stroke="none" stroke-width="0" opacity="0.7"/>
-<polygon points="847.6,150.0 1000.0,238.0 1000.0,222.0 847.6,134.0" fill="#34d399" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1152.4,150.0 1000.0,238.0 1000.0,222.0 1152.4,134.0" fill="#059669" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1000.0,46.0 1152.4,134.0 1000.0,222.0 847.6,134.0" fill="#a7f3d0" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="811.9,272.0 850.0,294.0 850.0,250.0 811.9,228.0" fill="#f59e0b" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="888.1,272.0 850.0,294.0 850.0,250.0 888.1,228.0" fill="#b45309" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="850.0,206.0 888.1,228.0 850.0,250.0 811.9,228.0" fill="#fcd34d" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="824.0,228.0 850.0,243.0 850.0,213.0 824.0,198.0" fill="#3b82f6" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="876.0,228.0 850.0,243.0 850.0,213.0 876.0,198.0" fill="#1d4ed8" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="850.0,183.0 876.0,198.0 850.0,213.0 824.0,198.0" fill="#93c5fd" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1098.8,280.0 1130.0,298.0 1130.0,262.0 1098.8,244.0" fill="#14b8a6" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1161.2,280.0 1130.0,298.0 1130.0,262.0 1161.2,244.0" fill="#0f766e" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1130.0,226.0 1161.2,244.0 1130.0,262.0 1098.8,244.0" fill="#5eead4" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<ellipse cx="770" cy="205" rx="14" ry="5" fill="#000" opacity="0.25" filter="url(#blur)"/>
-<polygon points="754.4,109.0 770.0,118.0 770.0,100.0 754.4,91.0" fill="#fbbf24" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="785.6,109.0 770.0,118.0 770.0,100.0 785.6,91.0" fill="#d97706" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="770.0,82.0 785.6,91.0 770.0,100.0 754.4,91.0" fill="#fde68a" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<ellipse cx="1180" cy="215" rx="12" ry="4" fill="#000" opacity="0.22" filter="url(#blur)"/>
-<polygon points="1167.0,93.5 1180.0,101.0 1180.0,86.0 1167.0,78.5" fill="#60a5fa" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1193.0,93.5 1180.0,101.0 1180.0,86.0 1193.0,78.5" fill="#2563eb" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-<polygon points="1180.0,71.0 1193.0,78.5 1180.0,86.0 1167.0,78.5" fill="#bfdbfe" stroke="rgba(0,0,0,0.25)" stroke-width="1" stroke-linejoin="round"/>
-  <text x="76.6" y="182.6" class="t" fill="rgb(6,60,45)">Smart Store</text>
-<text x="75.7" y="181.7" class="t" fill="rgb(9,63,47)">Smart Store</text>
-<text x="74.8" y="180.8" class="t" fill="rgb(12,66,49)">Smart Store</text>
-<text x="73.9" y="179.9" class="t" fill="rgb(15,69,51)">Smart Store</text>
-<text x="73.0" y="179.0" class="t" fill="rgb(18,72,53)">Smart Store</text>
-<text x="72.1" y="178.1" class="t" fill="rgb(21,75,55)">Smart Store</text>
-<text x="71.2" y="177.2" class="t" fill="rgb(24,78,57)">Smart Store</text>
-<text x="70.3" y="176.3" class="t" fill="rgb(27,81,59)">Smart Store</text>
-<text x="69.4" y="175.4" class="t" fill="rgb(30,84,61)">Smart Store</text>
-<text x="68.5" y="174.5" class="t" fill="rgb(33,87,63)">Smart Store</text>
-<text x="67.6" y="173.6" class="t" fill="rgb(36,90,65)">Smart Store</text>
-<text x="66.7" y="172.7" class="t" fill="rgb(39,93,67)">Smart Store</text>
-<text x="65.8" y="171.8" class="t" fill="rgb(42,96,69)">Smart Store</text>
-<text x="64.9" y="170.9" class="t" fill="rgb(45,99,71)">Smart Store</text>
-  <text x="64" y="170" class="t" fill="#ecfdf5">Smart Store</text>
-  <text x="66" y="232" class="s">Recipe-based shopping assistant</text>
-  <text x="66" y="266" class="s">and family monthly budget planner</text>
-  <g>
-    <rect x="66" y="298" width="112" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
-    <text x="122" y="323" class="c" text-anchor="middle">Java 17+</text>
-    <rect x="192" y="298" width="96" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
-    <text x="240" y="323" class="c" text-anchor="middle">Swing</text>
-    <rect x="302" y="298" width="168" height="38" rx="19" fill="rgba(255,255,255,0.08)" stroke="rgba(167,243,208,0.55)"/>
-    <text x="386" y="323" class="c" text-anchor="middle">Rule-based AI</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title description">
+<title id="title">Smart Store — A smarter way to fill your cart</title>
+<desc id="description">Animated three-dimensional shopping cart with floating groceries, luminous mint rails and an orbital platform against a midnight blue background. Animations respect reduced-motion preferences.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#060D19"/><stop offset=".55" stop-color="#091D2A"/><stop offset="1" stop-color="#06141D"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#18D6A1" stop-opacity=".25"/><stop offset="1" stop-color="#10CBA5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="blue"><stop stop-color="#338AFF" stop-opacity=".14"/><stop offset="1" stop-color="#338AFF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="titleFill" x2="1" y2=".7"><stop stop-color="#FAFFFF"/><stop offset=".55" stop-color="#E4FFF6"/><stop offset="1" stop-color="#57E5B8"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E0FFF7"/><stop offset=".25" stop-color="#6CDDC4"/><stop offset=".58" stop-color="#229980"/><stop offset=".8" stop-color="#B0F5DF"/><stop offset="1" stop-color="#42B39A"/></linearGradient>
+  <linearGradient id="rail" x2=".4" y2="1"><stop stop-color="#ECFFF9"/><stop offset=".35" stop-color="#88EDCF"/><stop offset="1" stop-color="#2E8D7D"/></linearGradient>
+  <linearGradient id="basketFront" x2=".2" y2="1"><stop stop-color="#49C5A4" stop-opacity=".32"/><stop offset="1" stop-color="#153F42" stop-opacity=".78"/></linearGradient>
+  <linearGradient id="basketSide" x2="1" y2="1"><stop stop-color="#1E786D" stop-opacity=".6"/><stop offset="1" stop-color="#0D2B3A" stop-opacity=".92"/></linearGradient>
+  <linearGradient id="platform" x2="0" y2="1"><stop stop-color="#25515B"/><stop offset="1" stop-color="#0A1D2B"/></linearGradient>
+  <linearGradient id="platformTop" x2="1" y2="1"><stop stop-color="#153C48"/><stop offset="1" stop-color="#0A2230"/></linearGradient>
+  <linearGradient id="milk" x2="1" y2=".5"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#BDE8DD"/></linearGradient>
+  <linearGradient id="orange" x2=".9" y2="1"><stop stop-color="#FFE6A4"/><stop offset=".3" stop-color="#FFC46C"/><stop offset=".7" stop-color="#F38432"/><stop offset="1" stop-color="#BE4F23"/></linearGradient>
+  <radialGradient id="tomato" cx=".3" cy=".2"><stop stop-color="#FFA78C"/><stop offset=".4" stop-color="#FF6856"/><stop offset="1" stop-color="#B52B32"/></radialGradient>
+  <linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#DAF79A"/><stop offset=".4" stop-color="#91CD65"/><stop offset="1" stop-color="#286C4B"/></linearGradient>
+  <linearGradient id="bread" x2="1" y2="1"><stop stop-color="#FFE3A5"/><stop offset=".5" stop-color="#DDA166"/><stop offset="1" stop-color="#975237"/></linearGradient>
+  <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#213F4F" stop-opacity=".95"/><stop offset="1" stop-color="#0A1D2C" stop-opacity=".98"/></linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="15" stdDeviation="12" flood-color="#000812" flood-opacity=".5"/></filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10"/></filter>
+  <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#77B9B0" opacity=".12"/></pattern>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', Arial, sans-serif; }
+  .cart { animation: float 6s ease-in-out infinite; }
+  .produce { animation: float 4.8s ease-in-out infinite; }
+  .produce2 { animation: float 5.6s ease-in-out -2s infinite; }
+  .card { animation: float 7s ease-in-out -1.5s infinite; }
+  .orbit { stroke-dasharray: 9 24; animation: orbit 22s linear infinite; }
+  .spark { animation: pulse 4s ease-in-out infinite; }
+  .delay { animation-delay: -2s; }
+  @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+  @keyframes orbit { to { stroke-dashoffset: -264; } }
+  @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { .cart,.produce,.produce2,.card,.orbit,.spark { animation: none; } }
+</style>
+<rect width="1600" height="640" rx="28" fill="url(#bg)"/>
+<rect width="1600" height="640" rx="28" fill="url(#dots)"/>
+<ellipse cx="1200" cy="330" rx="490" ry="360" fill="url(#halo)"/>
+<ellipse cx="360" cy="-40" rx="570" ry="440" fill="url(#blue)"/>
+<path d="M760 640L1230 300M960 640l360-340m-110 340 220-340m-420 255h590M1090 482h510" fill="none" stroke="#427F7D" stroke-opacity=".1"/>
+<rect x="1" y="1" width="1598" height="638" rx="27" fill="none" stroke="#73AAAC" stroke-opacity=".16"/>
+<!-- Editorial title block -->
+<rect x="72" y="66" width="252" height="34" rx="17" fill="#14352F" stroke="#2C6657"/>
+<circle cx="93" cy="83" r="4" fill="#71EDBC" class="spark"/>
+<text x="107" y="89" font-size="13" fill="#B6EAD6" font-weight="650" letter-spacing="2">GROCERIES, REIMAGINED</text>
+<text x="66" y="228" font-size="100" font-weight="800" letter-spacing="-4" fill="#010C13" opacity=".6">Smart Store.</text>
+<text x="66" y="220" font-size="100" font-weight="800" letter-spacing="-4" fill="url(#titleFill)">Smart Store.</text>
+<text x="74" y="278" font-size="30" fill="#E0F1ED" font-weight="400">A smarter way to fill your cart.</text>
+<text x="74" y="335" font-size="22" fill="#9BB6C1">From what is in your pantry</text>
+<text x="74" y="368" font-size="22" fill="#9BB6C1">to what is next on your plate.</text>
+<g transform="translate(74 416)">
+  <rect width="188" height="43" rx="10" fill="#143C35" stroke="#32725C"/>
+  <path d="M16 23l5 5 10-13" fill="none" stroke="#7EEABA" stroke-width="2" stroke-linecap="round"/>
+  <text x="41" y="28" font-size="16" font-weight="600" fill="#C7F7DC">Pantry-to-Plate</text>
+  <rect x="202" width="172" height="43" rx="10" fill="#112C3B" stroke="#2C5160"/>
+  <text x="221" y="28" font-size="16" fill="#C2DDE7">Budget Rescue</text>
+  <rect x="388" width="144" height="43" rx="10" fill="#112C3B" stroke="#2C5160"/>
+  <text x="407" y="28" font-size="16" fill="#C2DDE7">Less Waste</text>
+</g>
+<path d="M74 518h578" stroke="#24434D"/>
+<text x="74" y="557" font-size="14" fill="#9AB7BE" letter-spacing="2.4">JAVA  /  OOP LAB  /  DIU</text>
+<text x="74" y="591" font-size="12" fill="#77939D" letter-spacing="1.2">ACADEMIC PROJECT · FEATURES IN DEVELOPMENT</text>
+<!-- Illuminated three-dimensional platform -->
+<ellipse cx="1195" cy="528" rx="286" ry="74" fill="#020B16" opacity=".7" filter="url(#soft)"/>
+<path d="M914 490v27c0 52 125 85 279 85s279-33 279-85v-27Z" fill="url(#platform)"/>
+<ellipse cx="1193" cy="490" rx="279" ry="85" fill="url(#platformTop)" stroke="#347F7B" stroke-width="2"/>
+<ellipse cx="1193" cy="494" rx="250" ry="68" fill="none" stroke="#67ECC9" stroke-width="3" opacity=".5" filter="url(#glow)"/>
+<ellipse cx="1193" cy="490" rx="250" ry="68" fill="none" stroke="#57E0BB" stroke-width="1.5" opacity=".65"/>
+<ellipse cx="1193" cy="490" rx="267" ry="77" fill="none" stroke="#A1FFE0" stroke-width="2" class="orbit" opacity=".6"/>
+<path d="M972 561c104 47 324 50 443-1" fill="none" stroke="#39CBAF" stroke-width="2" opacity=".45"/>
+<!-- Cart suspension shadow -->
+<ellipse cx="1204" cy="487" rx="155" ry="27" fill="#000A12" opacity=".65" filter="url(#soft)"/>
+<g class="cart">
+  <!-- Back rail and handle -->
+  <path d="M1029 282l-39-94-45-13" fill="none" stroke="#0A202B" stroke-width="18" stroke-linecap="round"/>
+  <path d="M1029 282l-39-94-45-13" fill="none" stroke="url(#metal)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M945 175l-28-9" stroke="#08131E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M943 171l-26-8" stroke="#507481" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1030 265l197-66 205 85-197 78Z" fill="#2F7F70" fill-opacity=".12" stroke="#61B8A4" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Groceries inside basket -->
+  <g class="produce2">
+    <g transform="rotate(-17 1134 238)" filter="url(#shadow)">
+      <rect x="1095" y="145" width="68" height="171" rx="34" fill="url(#bread)"/>
+      <path d="M1110 175l29 8m-30 24l29 8m-30 24l29 8" stroke="#FFF0C5" stroke-width="9" stroke-linecap="round" opacity=".85"/>
+      <path d="M1103 173q2-19 17-21" fill="none" stroke="#FFF0D1" stroke-width="3" opacity=".6"/>
+    </g>
   </g>
-  <text x="66" y="372" class="m">OOP Lab Project  |  Daffodil International University</text>
+  <g class="produce">
+    <path d="M1198 289c-60-13-106-64-79-83 20-13 46 15 52 39-42-88-8-112 15-85 12 14 11 40 8 58 10-69 57-80 61-50 3 20-14 49-34 64 62-44 99-13 71 16-17 19-57 27-71 48Z" fill="url(#leaf)"/>
+    <path d="M1208 290l-19-93m19 91 47-57m-49 53-52-50" fill="none" stroke="#CAE7A2" stroke-width="3" opacity=".65"/>
+  </g>
+  <g transform="rotate(11 1290 224)" filter="url(#shadow)">
+    <path d="M1250 147l38-26 69 19-35 28Z" fill="#EEFDF6"/>
+    <path d="M1250 147l72 21v158l-72-23Z" fill="url(#milk)"/>
+    <path d="M1322 168l35-28v153l-35 33Z" fill="#7FB9AC"/>
+    <path d="M1288 121v-22l69 19v22Z" fill="#BBDDD0"/>
+    <path d="M1250 147l38-48v22Z" fill="#FBFFF4"/>
+    <path d="M1250 200l72 21v66l-72-22Z" fill="#2E7C65"/>
+    <text x="1260" y="235" font-size="17" font-weight="800" fill="#F0FFF6" transform="rotate(17 1260 235)">MILK</text>
+    <path d="M1322 221l35-28v66l-35 28Z" fill="#1E5B53"/>
+    <ellipse cx="1308" cy="124" rx="12" ry="5" fill="#74AAA0"/><ellipse cx="1308" cy="120" rx="12" ry="5" fill="#FFFFFF"/>
+  </g>
+  <circle cx="1208" cy="298" r="43" fill="url(#tomato)"/>
+  <path d="M1206 262l-13-13 17 8 7-16 1 18 19-1-16 8" fill="#4F995A"/>
+  <ellipse cx="1193" cy="285" rx="9" ry="5" fill="#FFD6BA" opacity=".45" transform="rotate(-35 1193 285)"/>
+  <!-- Basket faces, with dimensional rails -->
+  <path d="M1030 265l205 97-12 91-158-72Z" fill="url(#basketFront)" stroke="url(#rail)" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M1235 362l197-78-39 117-170 52Z" fill="url(#basketSide)" stroke="url(#metal)" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="none" stroke="url(#rail)" stroke-width="3" opacity=".88">
+    <path d="M1064 281l27 112m10-94 22 109m12-92 14 104m16-89 11 101m22-86 4 98"/>
+    <path d="M1042 301l189 88m-178-53 174 82m-165-51 162 77"/>
+    <path d="M1272 347l-15 96m54-111-18 99m57-115-24 104m62-119-28 110"/>
+    <path d="M1231 391l190-71m-193 98 183-64m-186 89 176-57"/>
+  </g>
+  <path d="M1030 265l205 97 197-78" fill="none" stroke="#A8F5DB" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1030 263l205 96 197-77" fill="none" stroke="#ECFFF8" stroke-width="2" stroke-linecap="round"/>
+  <!-- Chassis -->
+  <path d="M1065 381l-16 34 174 81 154-51" fill="none" stroke="url(#metal)" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M1223 453v43m170-95-16 44" fill="none" stroke="#6DC9B5" stroke-width="7"/>
+  <!-- Three-dimensional wheels -->
+  <g transform="translate(1087 443)">
+    <ellipse cx="8" cy="0" rx="18" ry="24" fill="#496273"/><ellipse rx="18" ry="24" fill="#071522" stroke="#507F88" stroke-width="3"/>
+    <ellipse rx="8" ry="12" fill="url(#metal)"/><ellipse rx="3" ry="5" fill="#E1FFF1"/>
+  </g>
+  <g transform="translate(1230 499)">
+    <ellipse cx="9" rx="20" ry="26" fill="#496273"/><ellipse rx="20" ry="26" fill="#071522" stroke="#507F88" stroke-width="3"/>
+    <ellipse rx="9" ry="13" fill="url(#metal)"/><ellipse rx="3" ry="5" fill="#E1FFF1"/>
+  </g>
+  <g transform="translate(1372 454)">
+    <ellipse cx="7" rx="17" ry="23" fill="#496273"/><ellipse rx="17" ry="23" fill="#071522" stroke="#507F88" stroke-width="3"/>
+    <ellipse rx="7" ry="11" fill="url(#metal)"/>
+  </g>
+</g>
+<!-- Floating product outside the cart -->
+<g class="produce2">
+  <ellipse cx="1447" cy="199" rx="39" ry="38" fill="url(#orange)" filter="url(#shadow)"/>
+  <path d="M1448 160c0-19 24-23 30-19-1 16-18 24-30 19Z" fill="url(#leaf)"/>
+  <path d="M1449 164l-5-15" stroke="#619C57" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1427 184q5-11 15-12" fill="none" stroke="#FFE6B2" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+</g>
+<!-- Floating glass annotation cards -->
+<g class="card" filter="url(#shadow)">
+  <rect x="887" y="112" width="191" height="67" rx="15" fill="url(#glass)" stroke="#41726E"/>
+  <rect x="901" y="129" width="30" height="30" rx="9" fill="#1C5848"/>
+  <path d="M909 144l5 5 10-12" stroke="#9BFFCB" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="943" y="140" font-size="14" fill="#E5FFF4" font-weight="650">Pantry-aware</text>
+  <text x="943" y="160" font-size="11" fill="#9ABBBE">Buy only what you need</text>
+</g>
+<g class="card delay" filter="url(#shadow)">
+  <rect x="1336" y="337" width="203" height="77" rx="15" fill="url(#glass)" stroke="#41726E"/>
+  <text x="1352" y="365" font-size="14" fill="#E5FFF4" font-weight="650">Better basket. Less waste.</text>
+  <text x="1352" y="390" font-size="12" fill="#7CE5B4">Your budget comes first.</text>
+</g>
+<g fill="#ADFFE3">
+  <path d="M1460 91v14m-7-7h14" stroke="#ADFFE3" stroke-width="2" class="spark"/>
+  <path d="M1000 362v12m-6-6h12" stroke="#ADFFE3" stroke-width="2" class="spark delay"/>
+  <circle cx="1369" cy="70" r="3" class="spark"/><circle cx="921" cy="344" r="2" class="spark delay"/>
+  <circle cx="1516" cy="270" r="3" class="spark"/>
+</g>
 </svg>
