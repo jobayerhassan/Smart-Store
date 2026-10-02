@@ -601,7 +601,7 @@ Smart-Store
 | Member 2 | Budget + Pantry + Ai|
 | Member 3 | Inventory + Pricing |
 | Member 4 | Cart + Order + Payment |
-| Member 5 | Eco System + Dashboard |
+| Member 5 | UI\UX + Navigation +Integration + Testing |
 
 ---
 
