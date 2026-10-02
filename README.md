@@ -599,7 +599,7 @@ Smart-Store
 |---|---|
 | Member 1 | Authentication + Smart Assistant |
 | Member 2 | Budget + Pantry + Ai|
-| Member 3 | Inventory + Pricing |
+| Member 3 | Cart + Checkout + Orders + Transaction System |
 | Member 4 | Cart + Order + Payment |
 | Member 5 | UI\UX + Navigation +Integration + Testing |
 
