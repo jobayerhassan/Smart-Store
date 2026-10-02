@@ -598,7 +598,7 @@ Smart-Store
 | Member | Responsibility |
 |---|---|
 | Member 1 | Authentication + Smart Assistant |
-| Member 2 | Budget + Pantry + Ai|
+| Member 2 |Ai + Smart Planner + Scan list|
 | Member 3 | Inventory + Pricing |
 | Member 4 | Cart + Order + Payment |
 | Member 5 | UI\UX + Navigation +Integration + Testing |
